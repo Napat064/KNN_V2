@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.header("โปรเจคการตรวจโรคหัวใจ")
+st.markdown("<h1 style='text-align: center; color: red;'>โปรเจคการตรวจโรคหัวใจ</h1>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
